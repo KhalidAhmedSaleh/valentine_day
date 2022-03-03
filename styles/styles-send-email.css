@@ -111,7 +111,7 @@ a {
   width: 9rem;
 }
 
-/* banner */
+/* header */
 
 .header {
   min-height: 100vh;
@@ -121,7 +121,8 @@ a {
   display: grid;
   place-items: center;
 }
-
+.banner {
+}
 .banner-info-container {
   display: grid;
   place-items: center;
@@ -164,7 +165,7 @@ a {
   height: 20rem;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
   transition: var(--transition);
-  background-color: var(--extra-grey-color);
+  background-color: var(--white);
   margin-left: 10rem;
   display: grid;
   place-items: center;
@@ -173,6 +174,10 @@ a {
 
 .form-control-container:hover {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.6);
+}
+
+.contact {
+  background-color: var(--extra-grey-color);
 }
 
 .contact-container {
