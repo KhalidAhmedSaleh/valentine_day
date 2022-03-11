@@ -155,7 +155,7 @@ a {
 .header {
   min-height: 100vh; /* Cover 100 percent of the screen size*/
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/background-img.jpg) center/cover no-repeat;
+    url(../images/image-1.jpg) center/cover no-repeat;
   background-attachment: fixed;
   display: grid;
   justify-content: center;
